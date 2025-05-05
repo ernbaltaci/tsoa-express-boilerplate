@@ -61,6 +61,5 @@ Create a `.env` file in the root directory and add your environment variables (e
 - [Mongoose](https://mongoosejs.com/) & [Typegoose](https://typegoose.github.io/typegoose/)
 - [Swagger UI Express](https://github.com/scottie1984/swagger-ui-express)
 - [Winston](https://github.com/winstonjs/winston)
-- [JWT](https://github.com/auth0/node-jsonwebtoken)
 - [Dotenv](https://github.com/motdotla/dotenv)
 
