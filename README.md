@@ -1,6 +1,6 @@
 # TSOA Express Boilerplate
 
-A modern boilerplate for building RESTful APIs with TypeScript, Express, TSOA, and Mongoose. This project provides a solid foundation for scalable API development, including JWT authentication, Typegoose models, Swagger documentation, and more.
+A modern boilerplate for building RESTful APIs with TypeScript, Express, TSOA, and Mongoose. This project provides a solid foundation for scalable API development, Typegoose models, Swagger documentation, and more.
 
 ## Features
 
@@ -8,7 +8,6 @@ A modern boilerplate for building RESTful APIs with TypeScript, Express, TSOA, a
 - **Express 5** for robust REST API routing
 - **TSOA** for automatic OpenAPI/Swagger documentation and type-safe controllers
 - **Mongoose & Typegoose** for MongoDB object modeling
-- **JWT** authentication ready
 - **Winston** for advanced logging
 - **Dotenv** for environment variable management
 - **Swagger UI** for interactive API docs
@@ -64,19 +63,4 @@ Create a `.env` file in the root directory and add your environment variables (e
 - [Winston](https://github.com/winstonjs/winston)
 - [JWT](https://github.com/auth0/node-jsonwebtoken)
 - [Dotenv](https://github.com/motdotla/dotenv)
-
-## Folder Structure
-
-```bash
-├── src/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middlewares/
-│ └── ...
-├── dist/
-├── package.json
-├── tsconfig.json
-├── tsoa.json
-```
 
