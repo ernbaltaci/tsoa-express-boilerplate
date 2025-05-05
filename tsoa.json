@@ -1,0 +1,32 @@
+{
+  "entryFile": "src/index.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/**/*.controller.ts"],
+  "modelPathGlobs": ["src/**/*.types.ts", "src/common/types/*.ts"],
+  "spec": {
+    "outputDirectory": "src",
+    "specVersion": 3,
+    "spec": {
+      "info": {
+        "title": "tsoa-express-boilerplate",
+        "version": "1.0.0"
+      },
+      "components": {}
+    }
+  },
+  "routes": {
+    "routesDir": "src",
+    "basePath": "/api/v1"
+  },
+  "ignore": ["**/node_modules/**"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "validation": {
+    "enabled": true
+  }
+}
+
